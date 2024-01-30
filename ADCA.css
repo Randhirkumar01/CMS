@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif ;
+}
+#back{
+  background-color: rgba(79, 70, 70, 0.5);
+  background-size: cover;
+  background-position: center;
+  min-height: 371vh;
+}
+.Logo{
+  width: 140px;
+  position: absolute;
+  top: 3%;
+  right: 2%;
+}
+#menubtn{
+  text-align: center;
+  position: fixed;
+  left: 15px;
+  top: 20px;
+  z-index: 3;
+  cursor: pointer;
+}
+#menubtn img{
+  width: 50px;
+
+}
+
+.box{
+  width: 60%;
+  min-height: 370vh;
+  background-color: rgba(255, 255, 255, 0.835);
+  top: 185%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing:border-box;
+  padding: 20px 30px;
+  border-radius:10px
+}
+.box h2{
+  margin: 20px;
+  padding: 0 0 20px;
+  text-align:left;
+  text-decoration: underline;
+  color:rgb(11, 10, 10);
+  font-size: 40px;
+}
+.box img{
+  width: 70%;
+  left: 20%;
+  position: relative;
+  align-items: center;
+}
+.box p{
+  color:rgb(11, 10, 10);
+  font-size: 20px;
+  line-height: 18px;
+  margin-top: 30px;
+  margin-bottom:16px;
+  text-align:justify;
+}
+.box tr{
+  height: 70px;
+
+}
+.box th{
+  width: 20%;
+  font-size: 25px;
+  text-decoration:underline solid;
+}
+.box td{
+  width: 20%;
+  font-size: 20px;
+  text-align: center;
+}
+.box h3{
+  padding: 0 0 10px;
+
+}
+.box ul{
+  padding: 0 0 10px;
+}
+.box li{
+  margin-top: 15px;
+  font-size: 20px;
+  
+}

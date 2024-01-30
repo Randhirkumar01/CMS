@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif ;
+}
+#back{
+  background-image: linear-gradient(rgba(79, 70, 70, 0.5),#88ddf7), url(../Student\ pic.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.Logo{
+  width: 140px;
+  position: absolute;
+  top: 3%;
+  right: 2%;
+}
+#menubtn{
+  text-align: center;
+  position: fixed;
+  left: 15px;
+  top: 20px;
+  z-index: 3;
+  cursor: pointer;
+}
+#menubtn img{
+  width: 50px;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: arial;
+}
+
+.login-box{
+  width: 700px;
+  background-color: rgba(0,0,0,0.5);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing:border-box;
+  padding: 5px 30px;
+  font-size: 17px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.3);
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+  color: #fff;
+  
+}
+
+h1{
+  text-align: center;
+  font-size: 25px;
+}
+.login-box p{
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login-box input{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.login-box input[type="text"],input[type="number"],input[type="email"],input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid rgb(210, 164, 14);
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color:rgb(203, 244, 80);
+  font-size: 18px;
+}
+.login-box input[type="date"]{
+  width: 50%;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid rgb(210, 164, 14);
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color:rgb(203, 244, 80);
+  font-size: 25px;
+}
+.login-box input[type="radio"]{
+  width: 5%;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid rgb(210, 164, 14);
+  background: transparent;
+  outline: none;
+  color:rgb(203, 244, 80);
+}
+.login-box input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 45px;
+  background: #fb2525;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border-radius: 15px;
+}
+.login-box input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #88ddf7;
+  color: #000;
+}

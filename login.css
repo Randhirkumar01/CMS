@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif ;
+}
+#back{
+  background-image: linear-gradient(rgba(79, 70, 70, 0.5),#88ddf7), url(../Student\ pic.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.Logo{
+  width: 140px;
+  position: absolute;
+  top: 3%;
+  right: 2%;
+}
+#menubtn{
+  text-align: center;
+  position: fixed;
+  left: 15px;
+  top: 20px;
+  z-index: 3;
+  cursor: pointer;
+}
+#menubtn img{
+  width: 50px;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: arial;
+}
+.login-box{
+  width: 370px;
+  height: 410px;
+  background-color: black;
+  color: #fff;
+  top: 68%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing:border-box;
+  padding: 60px 30px;
+  border-radius:10px
+}
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -13%;
+  left: calc(50% - 50px);
+}
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.login-box p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login-box input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login-box input[type="email"],input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color:#fff;
+  font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 15px;
+}
+.login-box input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #88ddf7;
+  color: #000;
+}
+.login-box a{
+  font-size: 15px;
+  line-height: 20px;
+  color: darkgrey;
+  margin-left: 0;
+}
+.login-box a:hover{
+  color: #ffc107;
+}

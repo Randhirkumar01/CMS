@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  #back {
+    background-image: linear-gradient(rgba(79, 70, 70, 0.5), #88ddf7);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  #back h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 30px;
+  }
+  .float-right{
+    margin-left: 3%;
+    float:left;
+  }
+  .float-right li{
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .float-right p{
+    font-size: 20px;
+    margin-top: 12px;
+    margin-left: 5px;
+  }

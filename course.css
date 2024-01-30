@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif ;
+}
+#back{
+  background-image: linear-gradient(rgba(79, 70, 70),#88ddf7);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.Logo{
+  width: 140px;
+  position: absolute;
+  top: 5%;
+  right: 3%;
+}
+#menubtn{
+  text-align: center;
+  position: fixed;
+  left: 3%;
+  top: 5%;
+  z-index: 3;
+  cursor: pointer;
+}
+#menubtn img{
+  width: 50px;
+
+}
+.title{
+  height: 150px;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.73);
+  color: rgb(234, 156, 13);
+  top: 12%;
+  left: 50%;
+  position:absolute;
+  transform: translate(-50%,-50%);
+  box-sizing:border-box;
+  border-radius:10px
+}
+.title h1{
+  margin-top: 25px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+html {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 25%;
+  background-color: rgba(92, 90, 86, 0.229);
+  margin-bottom: 16px;
+  margin-left: 16.5%;
+  margin-top: 25%;
+  padding: 0 8px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(72, 69, 69, 0.866);
+  margin: 8px;
+}
+.container {
+  padding: 0 16px;
+  background-color: rgb(222, 227, 225);
+}
+.container p {
+  text-align: justify;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgba(255, 19, 19);
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  width: 95%;
+}
+
+.button:hover {
+  background-color: #555;
+}

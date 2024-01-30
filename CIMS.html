@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CIMS</title>
+    <link rel="stylesheet" href="../cms/CIMS.css" />
+  </head>
+  <body>
+    <section id="back">
+      <img class="Logo" src="../cms/images/Logo.png" alt="" />
+      <div class="back-text">
+        <h1>Coaching Center</h1>
+        <p>Education is the most powerful weapon in the world</p>
+        <div class="login-btn">
+          <a target="blank" href="../cms/login.html">Login</a>
+          <a target="blank" href="../cms/register.html">Register</a>
+        </div>
+      </div>
+    </section>
+    <div>
+      <nav id="sidenavbar">
+        <ul type="none">
+          <li><a href="../cms/CIMS.html">Home</a></li>
+          <li><a target="blank" href="../cms/About.html">About </a></li>
+          <li><a target="blank" href="../cms/course.html">Course</a></li>
+          <li><a href="#Language">Language</a></li>
+          <li><a href="#Contact">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="menubtn">
+      <img src="../cms/menu.png" id="menu" />
+    </div>
+
+    <script>
+      var menubtn = document.getElementById("menubtn");
+      var sidenavbar = document.getElementById("sidenavbar");
+      var menu = document.getElementById("menu");
+
+      menubtn.onclick = function () {
+        if (sidenavbar.style.left == "-250px") {
+          sidenavbar.style.left = "0";
+          menu.src = "../cms/close.png";
+        } else {
+          sidenavbar.style.left = "-250px";
+          menu.src = "../cms/menu.png";
+        }
+      };
+    </script>
+    <!--For language-->
+    <div class="language-box">
+      <div class="title">
+        <h1 id="Language">Languages</h1>
+      </div>
+      <div class="box1">
+        <img src="../cms/letter-c.png" />
+        <p>
+          C was developed by Dennis Ritchie in 1973. It is used to create many
+          types of applications and operating systems such as windows, and other
+          complicated programs...
+          <a target="blank" href="https://www.javatpoint.com/c-programming-language-tutorial">Read more</a>
+        </p>
+      </div>
+      <div class="box2">
+        <img src="../cms/c-.png" />
+        <p>
+          C++ was developed by Bjarne Stroustrup in 1985. It is used for mobile
+          apps, video games, apps for windows and linux...
+          <a target="blank" href="https://www.javatpoint.com/cpp-tutorial">Read more</a>
+        </p>
+      </div>
+      <div class="box3">
+        <img src="../cms/js.png" />
+        <p>
+          Javascript was developed by Brendan Eich in 1995. It is used for
+          dynamic web development, desktop widgets, form submission, user
+          activity tracking, etc...
+          <a target="blank" href="https://www.javatpoint.com/javascript-tutorial">Read more</a>
+        </p>
+      </div>
+      <div class="box4">
+        <img src="../cms/php.png" />
+        <p>
+          PHP was developed by Rasmus Lerdorf in 1995. This is open source
+          programming language used for building and maintaining dynamic web
+          pages...
+          <a target="blank" href="https://www.javatpoint.com/php-tutorial">Read more</a>
+        </p>
+      </div>
+      <div class="box5">
+        <img src="../cms/ruby.png" />
+        <p>
+          Ruby was developed by Yukihiro Matsumoto in 1995. It is used to build
+          simulations and web application...
+          <a target="blank" href="https://www.javatpoint.com/ruby-tutorial">Read more</a>
+        </p>
+      </div>
+      <div class="box6">
+        <img src="../cms/python.png" />
+        <p>
+          Python was developed by Guido Van Rossum in 1989. It is used to
+          provide database access, build websites, games, software and GUIs...
+          <a target="blank" href="https://www.javatpoint.com/python-tutorial">Read more</a>
+        </p>
+      </div>
+    </div>
+    <!--Contact us-->
+    <div class="contact">
+      <div class="contact-title"> 
+      <h1 id="Contact">Contact us</h1>
+      </div>
+      <div class="container">
+        <div class="contact-info">
+          <div class="box">
+            <div class="icon"><img src="../cms/placeholder.png"></div>
+              <div class="text">
+                    <h2>Address</h2>
+                    <p>Hirapur, near Golf ground <br>
+                      Dhanbad,Jharkhand <br>
+                      826001 </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><img src="../cms/gmail.png"></div>
+              <div class="text">
+                    <h2>E-mail</h2>
+                    <p>randhirkumar4554@gmail.com
+                    </p>
+              </div>
+          </div>
+          <div class="box">
+             <div class="icon"><img src="../cms/phone.png"></div>
+                <div class="text">
+                      <h2>Phone</h2>
+                      <p>+91 76675 12556 <br>+91 92343 72770 <br>+91 80021 11171 </p>
+                  </div>
+          </div>
+      </div>
+      <div class="contact-form">
+        <form>
+          <h2>Send Message</h2>
+          <div class="inputBox">
+            <input type="text" name="" required="required">
+            <span>Full Name</span>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="" required="required">
+            <span>E-mail</span>
+          </div>
+          <div class="inputBox">
+            <textarea required="required"></textarea>
+            <span>Type your Message...</span>
+          </div>
+          <div class="inputBox">
+            <input type="submit" name="" value="Send">
+
+          </div>
+        </form>
+    </div>
+      
+  </body>
+</html>
